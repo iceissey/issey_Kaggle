@@ -1,0 +1,1406 @@
+text,labels
+"Reconstructing Subject-Specific Effect Maps   Predictive models allow subject-specific inference when analyzing disease
+related alterations in neuroimaging data. Given a subject's data, inference can
+be made at two levels: global, i.e. identifiying condition presence for the
+subject, and local, i.e. detecting condition effect on each individual
+measurement extracted from the subject's data. While global inference is widely
+used, local inference, which can be used to form subject-specific effect maps,
+is rarely used because existing models often yield noisy detections composed of
+dispersed isolated islands. In this article, we propose a reconstruction
+method, named RSM, to improve subject-specific detections of predictive
+modeling approaches and in particular, binary classifiers. RSM specifically
+aims to reduce noise due to sampling error associated with using a finite
+sample of examples to train classifiers. The proposed method is a wrapper-type
+algorithm that can be used with different binary classifiers in a diagnostic
+manner, i.e. without information on condition presence. Reconstruction is posed
+as a Maximum-A-Posteriori problem with a prior model whose parameters are
+estimated from training data in a classifier-specific fashion. Experimental
+evaluation is performed on synthetically generated data and data from the
+Alzheimer's Disease Neuroimaging Initiative (ADNI) database. Results on
+synthetic data demonstrate that using RSM yields higher detection accuracy
+compared to using models directly or with bootstrap averaging. Analyses on the
+ADNI dataset show that RSM can also improve correlation between
+subject-specific detections in cortical thickness data and non-imaging markers
+of Alzheimer's Disease (AD), such as the Mini Mental State Examination Score
+and Cerebrospinal Fluid amyloid-$\beta$ levels. Further reliability studies on
+the longitudinal ADNI dataset show improvement on detection reliability when
+RSM is used.
+",Computer Science
+"Rotation Invariance Neural Network   Rotation invariance and translation invariance have great values in image
+recognition tasks. In this paper, we bring a new architecture in convolutional
+neural network (CNN) named cyclic convolutional layer to achieve rotation
+invariance in 2-D symbol recognition. We can also get the position and
+orientation of the 2-D symbol by the network to achieve detection purpose for
+multiple non-overlap target. Last but not least, this architecture can achieve
+one-shot learning in some cases using those invariance.
+",Computer Science
+"Spherical polyharmonics and Poisson kernels for polyharmonic functions   We introduce and develop the notion of spherical polyharmonics, which are a
+natural generalisation of spherical harmonics. In particular we study the
+theory of zonal polyharmonics, which allows us, analogously to zonal harmonics,
+to construct Poisson kernels for polyharmonic functions on the union of rotated
+balls. We find the representation of Poisson kernels and zonal polyharmonics in
+terms of the Gegenbauer polynomials. We show the connection between the
+classical Poisson kernel for harmonic functions on the ball, Poisson kernels
+for polyharmonic functions on the union of rotated balls, and the Cauchy-Hua
+kernel for holomorphic functions on the Lie ball.
+",Mathematics
+"A finite element approximation for the stochastic Maxwell--Landau--Lifshitz--Gilbert system   The stochastic Landau--Lifshitz--Gilbert (LLG) equation coupled with the
+Maxwell equations (the so called stochastic MLLG system) describes the creation
+of domain walls and vortices (fundamental objects for the novel nanostructured
+magnetic memories). We first reformulate the stochastic LLG equation into an
+equation with time-differentiable solutions. We then propose a convergent
+$\theta$-linear scheme to approximate the solutions of the reformulated system.
+As a consequence, we prove convergence of the approximate solutions, with no or
+minor conditions on time and space steps (depending on the value of $\theta$).
+Hence, we prove the existence of weak martingale solutions of the stochastic
+MLLG system. Numerical results are presented to show applicability of the
+method.
+",Mathematics
+"Comparative study of Discrete Wavelet Transforms and Wavelet Tensor Train decomposition to feature extraction of FTIR data of medicinal plants   Fourier-transform infra-red (FTIR) spectra of samples from 7 plant species
+were used to explore the influence of preprocessing and feature extraction on
+efficiency of machine learning algorithms. Wavelet Tensor Train (WTT) and
+Discrete Wavelet Transforms (DWT) were compared as feature extraction
+techniques for FTIR data of medicinal plants. Various combinations of signal
+processing steps showed different behavior when applied to classification and
+clustering tasks. Best results for WTT and DWT found through grid search were
+similar, significantly improving quality of clustering as well as
+classification accuracy for tuned logistic regression in comparison to original
+spectra. Unlike DWT, WTT has only one parameter to be tuned (rank), making it a
+more versatile and easier to use as a data processing tool in various signal
+processing applications.
+",Computer Science; Statistics
+"On maximizing the fundamental frequency of the complement of an obstacle   Let $\Omega \subset \mathbb{R}^n$ be a bounded domain satisfying a
+Hayman-type asymmetry condition, and let $ D $ be an arbitrary bounded domain
+referred to as ""obstacle"". We are interested in the behaviour of the first
+Dirichlet eigenvalue $ \lambda_1(\Omega \setminus (x+D)) $. First, we prove an
+upper bound on $ \lambda_1(\Omega \setminus (x+D)) $ in terms of the distance
+of the set $ x+D $ to the set of maximum points $ x_0 $ of the first Dirichlet
+ground state $ \phi_{\lambda_1} > 0 $ of $ \Omega $. In short, a direct
+corollary is that if \begin{equation} \mu_\Omega := \max_{x}\lambda_1(\Omega
+\setminus (x+D)) \end{equation} is large enough in terms of $ \lambda_1(\Omega)
+$, then all maximizer sets $ x+D $ of $ \mu_\Omega $ are close to each maximum
+point $ x_0 $ of $ \phi_{\lambda_1} $.
+Second, we discuss the distribution of $ \phi_{\lambda_1(\Omega)} $ and the
+possibility to inscribe wavelength balls at a given point in $ \Omega $.
+Finally, we specify our observations to convex obstacles $ D $ and show that
+if $ \mu_\Omega $ is sufficiently large with respect to $ \lambda_1(\Omega) $,
+then all maximizers $ x+D $ of $ \mu_\Omega $ contain all maximum points $ x_0
+$ of $ \phi_{\lambda_1(\Omega)} $.
+",Mathematics
+"On the rotation period and shape of the hyperbolic asteroid 1I/`Oumuamua (2017) U1 from its lightcurve   We observed the newly discovered hyperbolic minor planet 1I/`Oumuamua (2017
+U1) on 2017 October 30 with Lowell Observatory's 4.3-m Discovery Channel
+Telescope. From these observations, we derived a partial lightcurve with
+peak-to-trough amplitude of at least 1.2 mag. This lightcurve segment rules out
+rotation periods less than 3 hr and suggests that the period is at least 5 hr.
+On the assumption that the variability is due to a changing cross section, the
+axial ratio is at least 3:1. We saw no evidence for a coma or tail in either
+individual images or in a stacked image having an equivalent exposure time of
+9000 s.
+",Physics
+"Adverse effects of polymer coating on heat transport at solid-liquid interface   The ability of metallic nanoparticles to supply heat to a liquid environment
+under exposure to an external optical field has attracted growing interest for
+biomedical applications. Controlling the thermal transport properties at a
+solid-liquid interface then appears to be particularly relevant. In this work,
+we address the thermal transport between water and a gold surface coated by a
+polymer layer. Using molecular dynamics simulations, we demonstrate that
+increasing the polymer density displaces the domain resisting to the heat flow,
+while it doesn't affect the final amount of thermal energy released in the
+liquid. This unexpected behavior results from a trade-off established by the
+increasing polymer density which couples more efficiently with the solid but
+initiates a counterbalancing resistance with the liquid.
+",Physics
+"SPH calculations of Mars-scale collisions: the role of the Equation of State, material rheologies, and numerical effects   We model large-scale ($\approx$2000km) impacts on a Mars-like planet using a
+Smoothed Particle Hydrodynamics code. The effects of material strength and of
+using different Equations of State on the post-impact material and temperature
+distributions are investigated. The properties of the ejected material in terms
+of escaping and disc mass are analysed as well. We also study potential
+numerical effects in the context of density discontinuities and rigid body
+rotation. We find that in the large-scale collision regime considered here
+(with impact velocities of 4km/s), the effect of material strength is
+substantial for the post-impact distribution of the temperature and the
+impactor material, while the influence of the Equation of State is more subtle
+and present only at very high temperatures.
+",Physics
+"$\mathcal{R}_{0}$ fails to predict the outbreak potential in the presence of natural-boosting immunity   Time varying susceptibility of host at individual level due to waning and
+boosting immunity is known to induce rich long-term behavior of disease
+transmission dynamics. Meanwhile, the impact of the time varying heterogeneity
+of host susceptibility on the shot-term behavior of epidemics is not
+well-studied, even though the large amount of the available epidemiological
+data are the short-term epidemics. Here we constructed a parsimonious
+mathematical model describing the short-term transmission dynamics taking into
+account natural-boosting immunity by reinfection, and obtained the explicit
+solution for our model. We found that our system show ""the delayed epidemic"",
+the epidemic takes off after negative slope of the epidemic curve at the
+initial phase of epidemic, in addition to the common classification in the
+standard SIR model, i.e., ""no epidemic"" as $\mathcal{R}_{0}\leq1$ or normal
+epidemic as $\mathcal{R}_{0}>1$. Employing the explicit solution we derived the
+condition for each classification.
+",Quantitative Biology
+"A global sensitivity analysis and reduced order models for hydraulically-fractured horizontal wells   We present a systematic global sensitivity analysis using the Sobol method
+which can be utilized to rank the variables that affect two quantity of
+interests -- pore pressure depletion and stress change -- around a
+hydraulically-fractured horizontal well based on their degree of importance.
+These variables include rock properties and stimulation design variables. A
+fully-coupled poroelastic hydraulic fracture model is used to account for pore
+pressure and stress changes due to production. To ease the computational cost
+of a simulator, we also provide reduced order models (ROMs), which can be used
+to replace the complex numerical model with a rather simple analytical model,
+for calculating the pore pressure and stresses at different locations around
+hydraulic fractures. The main findings of this research are: (i) mobility,
+production pressure, and fracture half-length are the main contributors to the
+changes in the quantities of interest. The percentage of the contribution of
+each parameter depends on the location with respect to pre-existing hydraulic
+fractures and the quantity of interest. (ii) As the time progresses, the effect
+of mobility decreases and the effect of production pressure increases. (iii)
+These two variables are also dominant for horizontal stresses at large
+distances from hydraulic fractures. (iv) At zones close to hydraulic fracture
+tips or inside the spacing area, other parameters such as fracture spacing and
+half-length are the dominant factors that affect the minimum horizontal stress.
+The results of this study will provide useful guidelines for the stimulation
+design of legacy wells and secondary operations such as refracturing and infill
+drilling.
+",Computer Science
+"Role-separating ordering in social dilemmas controlled by topological frustration   ""Three is a crowd"" is an old proverb that applies as much to social
+interactions, as it does to frustrated configurations in statistical physics
+models. Accordingly, social relations within a triangle deserve special
+attention. With this motivation, we explore the impact of topological
+frustration on the evolutionary dynamics of the snowdrift game on a triangular
+lattice. This topology provides an irreconcilable frustration, which prevents
+anti-coordination of competing strategies that would be needed for an optimal
+outcome of the game. By using different strategy updating protocols, we observe
+complex spatial patterns in dependence on payoff values that are reminiscent to
+a honeycomb-like organization, which helps to minimize the negative consequence
+of the topological frustration. We relate the emergence of these patterns to
+the microscopic dynamics of the evolutionary process, both by means of
+mean-field approximations and Monte Carlo simulations. For comparison, we also
+consider the same evolutionary dynamics on the square lattice, where of course
+the topological frustration is absent. However, with the deletion of diagonal
+links of the triangular lattice, we can gradually bridge the gap to the square
+lattice. Interestingly, in this case the level of cooperation in the system is
+a direct indicator of the level of topological frustration, thus providing a
+method to determine frustration levels in an arbitrary interaction network.
+",Physics
+"Dynamics of exciton magnetic polarons in CdMnSe/CdMgSe quantum wells: the effect of self-localization   We study the exciton magnetic polaron (EMP) formation in (Cd,Mn)Se/(Cd,Mg)Se
+diluted-magnetic-semiconductor quantum wells using time-resolved
+photoluminescence (PL). The magnetic field and temperature dependencies of this
+dynamics allow us to separate the non-magnetic and magnetic contributions to
+the exciton localization. We deduce the EMP energy of 14 meV, which is in
+agreement with time-integrated measurements based on selective excitation and
+the magnetic field dependence of the PL circular polarization degree. The
+polaron formation time of 500 ps is significantly longer than the corresponding
+values reported earlier. We propose that this behavior is related to strong
+self-localization of the EMP, accompanied with a squeezing of the heavy-hole
+envelope wavefunction. This conclusion is also supported by the decrease of the
+exciton lifetime from 600 ps to 200 - 400 ps with increasing magnetic field and
+temperature.
+",Physics
+"On Varieties of Ordered Automata   The classical Eilenberg correspondence, based on the concept of the syntactic
+monoid, relates varieties of regular languages with pseudovarieties of finite
+monoids. Various modifications of this correspondence appeared, with more
+general classes of regular languages on one hand and classes of more complex
+algebraic structures on the other hand. For example, classes of languages need
+not be closed under complementation or all preimages under homomorphisms, while
+monoids can be equipped with a compatible order or they can have a
+distinguished set of generators. Such generalized varieties and pseudovarieties
+also have natural counterparts formed by classes of finite (ordered) automata.
+In this paper the previous approaches are combined. The notion of positive
+$\mathcal C$-varieties of ordered semiautomata (i.e. no initial and final
+states are specified) is introduced and their correspondence with positive
+$\mathcal C$-varieties of languages is proved.
+",Computer Science
+"Direct Evidence of Spontaneous Abrikosov Vortex State in Ferromagnetic Superconductor EuFe$_2$(As$_{1-x}$P$_x$)$_2$ with $x=0.21$   Using low-temperature Magnetic Force Microscopy (MFM) we provide direct
+experimental evidence for spontaneous vortex phase (SVP) formation in
+EuFe$_2$(As$_{0.79}$P$_{0.21}$)$_2$ single crystal with the superconducting
+$T^{\rm 0}_{\rm SC}=23.6$~K and ferromagnetic $T_{\rm FM}\sim17.7$~K transition
+temperatures. Spontaneous vortex-antivortex (V-AV) pairs are imaged in the
+vicinity of $T_{\rm FM}$. Also, upon cooling cycle near $T_{\rm FM}$ we observe
+the first-order transition from the short period domain structure, which
+appears in the Meissner state, into the long period domain structure with
+spontaneous vortices. It is the first experimental observation of this scenario
+in the ferromagnetic superconductors. Low-temperature phase is characterized by
+much larger domains in V-AV state and peculiar branched striped structures at
+the surface, which are typical for uniaxial ferromagnets with perpendicular
+magnetic anisotropy (PMA). The domain wall parameters at various temperatures
+are estimated.
+",Physics
+"A rank 18 Waring decomposition of $sM_{\langle 3\rangle}$ with 432 symmetries   The recent discovery that the exponent of matrix multiplication is determined
+by the rank of the symmetrized matrix multiplication tensor has invigorated
+interest in better understanding symmetrized matrix multiplication. I present
+an explicit rank 18 Waring decomposition of $sM_{\langle 3\rangle}$ and
+describe its symmetry group.
+",Mathematics
+"The PdBI Arcsecond Whirlpool Survey (PAWS). The Role of Spiral Arms in Cloud and Star Formation   The process that leads to the formation of the bright star forming sites
+observed along prominent spiral arms remains elusive. We present results of a
+multi-wavelength study of a spiral arm segment in the nearby grand-design
+spiral galaxy M51 that belongs to a spiral density wave and exhibits nine gas
+spurs. The combined observations of the(ionized, atomic, molecular, dusty)
+interstellar medium (ISM) with star formation tracers (HII regions, young
+<10Myr stellar clusters) suggest (1) no variation in giant molecular cloud
+(GMC) properties between arm and gas spurs, (2) gas spurs and extinction
+feathers arising from the same structure with a close spatial relation between
+gas spurs and ongoing/recent star formation (despite higher gas surface
+densities in the spiral arm), (3) no trend in star formation age either along
+the arm or along a spur, (4) evidence for strong star formation feedback in gas
+spurs: (5) tentative evidence for star formation triggered by stellar feedback
+for one spur, and (6) GMC associations (GMAs) being no special entities but the
+result of blending of gas arm/spur cross-sections in lower resolution
+observations. We conclude that there is no evidence for a coherent star
+formation onset mechanism that can be solely associated to the presence of the
+spiral density wave. This suggests that other (more localized) mechanisms are
+important to delay star formation such that it occurs in spurs. The evidence of
+star formation proceeding over several million years within individual spurs
+implies that the mechanism that leads to star formation acts or is sustained
+over a longer time-scale.
+",Physics
+"Higher structure in the unstable Adams spectral sequence   We describe a variant construction of the unstable Adams spectral the
+sequence for a space $Y$, associated to any free simplicial resolution of
+$H^*(Y;R)$ for $R=\mathbb{F}_p$ or $\mathbb{Q}$. We use this construction to
+describe the differentials and filtration in the spectral sequence in terms of
+appropriate systems of higher cohomology operations.
+",Mathematics
+"Comparing Covariate Prioritization via Matching to Machine Learning Methods for Causal Inference using Five Empirical Applications   When investigators seek to estimate causal effects, they often assume that
+selection into treatment is based only on observed covariates. Under this
+identification strategy, analysts must adjust for observed confounders. While
+basic regression models have long been the dominant method of statistical
+adjustment, more robust methods based on matching or weighting have become more
+common. Of late, even more flexible methods based on machine learning methods
+have been developed for statistical adjustment. These machine learning methods
+are designed to be black box methods with little input from the researcher.
+Recent research used a data competition to evaluate various methods of
+statistical adjustment and found that black box methods out performed all other
+methods of statistical adjustment. Matching methods with covariate
+prioritization are designed for direct input from substantive investigators in
+direct contrast to black methods. In this article, we use a different research
+design to compare matching with covariate prioritization to black box methods.
+We use black box methods to replicate results from five studies where matching
+with covariate prioritization was used to customize the statistical adjustment
+in direct response to substantive expertise. We find little difference across
+the methods. We conclude with advice for investigators.
+",Statistics
+"Acoustic Impedance Calculation via Numerical Solution of the Inverse Helmholtz Problem   Assigning homogeneous boundary conditions, such as acoustic impedance, to the
+thermoviscous wave equations (TWE) derived by transforming the linearized
+Navier-Stokes equations (LNSE) to the frequency domain yields a so-called
+Helmholtz solver, whose output is a discrete set of complex eigenfunction and
+eigenvalue pairs. The proposed method -- the inverse Helmholtz solver (iHS) --
+reverses such procedure by returning the value of acoustic impedance at one or
+more unknown impedance boundaries (IBs) of a given domain via spatial
+integration of the TWE for a given real-valued frequency with assigned
+conditions on other boundaries. The iHS procedure is applied to a second-order
+spatial discretization of the TWEs derived on an unstructured grid with
+staggered grid arrangement. The momentum equation only is extended to the
+center of each IB face where pressure and velocity components are co-located
+and treated as unknowns. One closure condition considered for the iHS is the
+assignment of the surface gradient of pressure phase over the IBs,
+corresponding to assigning the shape of the acoustic waveform at the IB. The
+iHS procedure is carried out independently for each frequency in order to
+return the complete broadband complex impedance distribution at the IBs in any
+desired frequency range. The iHS approach is first validated against Rott's
+theory for both inviscid and viscous, rectangular and circular ducts. The
+impedance of a geometrically complex toy cavity is then reconstructed and
+verified against companion full compressible unstructured Navier-Stokes
+simulations resolving the cavity geometry and one-dimensional impedance test
+tube calculations based on time-domain impedance boundary conditions (TDIBC).
+The iHS methodology is also shown to capture thermoacoustic effects, with
+reconstructed impedance values quantitatively in agreement with thermoacoustic
+growth rates.
+",Physics
+"Deciphering noise amplification and reduction in open chemical reaction networks   The impact of random fluctuations on the dynamical behavior a complex
+biological systems is a longstanding issue, whose understanding would shed
+light on the evolutionary pressure that nature imposes on the intrinsic noise
+levels and would allow rationally designing synthetic networks with controlled
+noise. Using the Itō stochastic differential equation formalism, we performed
+both analytic and numerical analyses of several model systems containing
+different molecular species in contact with the environment and interacting
+with each other through mass-action kinetics. These systems represent for
+example biomolecular oligomerization processes, complex-breakage reactions,
+signaling cascades or metabolic networks. For chemical reaction networks with
+zero deficiency values, which admit a detailed- or complex-balanced steady
+state, all molecular species are uncorrelated. The number of molecules of each
+species follow a Poisson distribution and their Fano factors, which measure the
+intrinsic noise, are equal to one. Systems with deficiency one have an
+unbalanced non-equilibrium steady state and a non-zero S-flux, defined as the
+flux flowing between the complexes multiplied by an adequate stoichiometric
+coefficient. In this case, the noise on each species is reduced if the flux
+flows from the species of lowest to highest complexity, and is amplified is the
+flux goes in the opposite direction. These results are generalized to systems
+of deficiency two, which possess two independent non-vanishing S-fluxes, and we
+conjecture that a similar relation holds for higher deficiency systems.
+",Quantitative Biology
+"Many-Body Localization: Stability and Instability   Rare regions with weak disorder (Griffiths regions) have the potential to
+spoil localization. We describe a non-perturbative construction of local
+integrals of motion (LIOMs) for a weakly interacting spin chain in one
+dimension, under a physically reasonable assumption on the statistics of
+eigenvalues. We discuss ideas about the situation in higher dimensions, where
+one can no longer ensure that interactions involving the Griffiths regions are
+much smaller than the typical energy-level spacing for such regions. We argue
+that ergodicity is restored in dimension d > 1, although equilibration should
+be extremely slow, similar to the dynamics of glasses.
+",Physics; Mathematics
+"Fault Detection and Isolation Tools (FDITOOLS) User's Guide   The Fault Detection and Isolation Tools (FDITOOLS) is a collection of MATLAB
+functions for the analysis and solution of fault detection and model detection
+problems. The implemented functions are based on the computational procedures
+described in the Chapters 5, 6 and 7 of the book: ""A. Varga, Solving Fault
+Diagnosis Problems - Linear Synthesis Techniques, Springer, 2017"". This
+document is the User's Guide for the version V1.0 of FDITOOLS. First, we
+present the mathematical background for solving several basic exact and
+approximate synthesis problems of fault detection filters and model detection
+filters. Then, we give in-depth information on the command syntax of the main
+analysis and synthesis functions. Several examples illustrate the use of the
+main functions of FDITOOLS.
+",Computer Science
+"Complexity of Deciding Detectability in Discrete Event Systems   Detectability of discrete event systems (DESs) is a question whether the
+current and subsequent states can be determined based on observations. Shu and
+Lin designed a polynomial-time algorithm to check strong (periodic)
+detectability and an exponential-time (polynomial-space) algorithm to check
+weak (periodic) detectability. Zhang showed that checking weak (periodic)
+detectability is PSpace-complete. This intractable complexity opens a question
+whether there are structurally simpler DESs for which the problem is tractable.
+In this paper, we show that it is not the case by considering DESs represented
+as deterministic finite automata without non-trivial cycles, which are
+structurally the simplest deadlock-free DESs. We show that even for such very
+simple DESs, checking weak (periodic) detectability remains intractable. On the
+contrary, we show that strong (periodic) detectability of DESs can be
+efficiently verified on a parallel computer.
+",Computer Science
+"The Knaster-Tarski theorem versus monotone nonexpansive mappings   Let $X$ be a partially ordered set with the property that each family of
+order intervals of the form $[a,b],[a,\rightarrow )$ with the finite
+intersection property has a nonempty intersection. We show that every directed
+subset of $X$ has a supremum. Then we apply the above result to prove that if
+$X$ is a topological space with a partial order $\preceq $ for which the order
+intervals are compact, $\mathcal{F}$ a nonempty commutative family of monotone
+maps from $X$ into $X$ and there exists $c\in X$ such that $c\preceq Tc$ for
+every $T\in \mathcal{F}$, then the set of common fixed points of $\mathcal{F}$
+is nonempty and has a maximal element. The result, specialized to the case of
+Banach spaces gives a general fixed point theorem that drops almost all
+assumptions from the recent results in this area. An application to the theory
+of integral equations of Urysohn's type is also given.
+",Mathematics
+"Efficient methods for computing integrals in electronic structure calculations   Efficient methods are proposed, for computing integrals appeaing in
+electronic structure calculations. The methods consist of two parts: the first
+part is to represent the integrals as contour integrals and the second one is
+to evaluate the contour integrals by the Clenshaw-Curtis quadrature. The
+efficiency of the proposed methods is demonstrated through numerical
+experiments.
+",Physics
+"Diffraction-Aware Sound Localization for a Non-Line-of-Sight Source   We present a novel sound localization algorithm for a non-line-of-sight
+(NLOS) sound source in indoor environments. Our approach exploits the
+diffraction properties of sound waves as they bend around a barrier or an
+obstacle in the scene. We combine a ray tracing based sound propagation
+algorithm with a Uniform Theory of Diffraction (UTD) model, which simulate
+bending effects by placing a virtual sound source on a wedge in the
+environment. We precompute the wedges of a reconstructed mesh of an indoor
+scene and use them to generate diffraction acoustic rays to localize the 3D
+position of the source. Our method identifies the convergence region of those
+generated acoustic rays as the estimated source position based on a particle
+filter. We have evaluated our algorithm in multiple scenarios consisting of a
+static and dynamic NLOS sound source. In our tested cases, our approach can
+localize a source position with an average accuracy error, 0.7m, measured by
+the L2 distance between estimated and actual source locations in a 7m*7m*3m
+room. Furthermore, we observe 37% to 130% improvement in accuracy over a
+state-of-the-art localization method that does not model diffraction effects,
+especially when a sound source is not visible to the robot.
+",Computer Science
+"Jacob's ladders, crossbreeding in the set of $ζ$-factorization formulas and selection of families of $ζ$-kindred real continuous functions   In this paper we introduce the notion of $\zeta$-crossbreeding in a set of
+$\zeta$-factorization formulas and also the notion of complete hybrid formula
+as the final result of that crossbreeding. The last formula is used as a
+criterion for selection of families of $\zeta$-kindred elements in class of
+real continuous functions.
+Dedicated to recalling of Gregory Mendel's pea-crossbreeding.
+",Mathematics
+"Minimax Estimation of the $L_1$ Distance   We consider the problem of estimating the $L_1$ distance between two discrete
+probability measures $P$ and $Q$ from empirical data in a nonasymptotic and
+large alphabet setting. When $Q$ is known and one obtains $n$ samples from $P$,
+we show that for every $Q$, the minimax rate-optimal estimator with $n$ samples
+achieves performance comparable to that of the maximum likelihood estimator
+(MLE) with $n\ln n$ samples. When both $P$ and $Q$ are unknown, we construct
+minimax rate-optimal estimators whose worst case performance is essentially
+that of the known $Q$ case with $Q$ being uniform, implying that $Q$ being
+uniform is essentially the most difficult case. The \emph{effective sample size
+enlargement} phenomenon, identified in Jiao \emph{et al.} (2015), holds both in
+the known $Q$ case for every $Q$ and the $Q$ unknown case. However, the
+construction of optimal estimators for $\|P-Q\|_1$ requires new techniques and
+insights beyond the approximation-based method of functional estimation in Jiao
+\emph{et al.} (2015).
+",Mathematics; Statistics
+"Density large deviations for multidimensional stochastic hyperbolic conservation laws   We investigate the density large deviation function for a multidimensional
+conservation law in the vanishing viscosity limit, when the probability
+concentrates on weak solutions of a hyperbolic conservation law conservation
+law. When the conductivity and dif-fusivity matrices are proportional, i.e. an
+Einstein-like relation is satisfied, the problem has been solved in [4]. When
+this proportionality does not hold, we compute explicitly the large deviation
+function for a step-like density profile, and we show that the associated
+optimal current has a non trivial structure. We also derive a lower bound for
+the large deviation function, valid for a general weak solution, and leave the
+general large deviation function upper bound as a conjecture.
+",Physics; Mathematics
+"mixup: Beyond Empirical Risk Minimization   Large deep neural networks are powerful, but exhibit undesirable behaviors
+such as memorization and sensitivity to adversarial examples. In this work, we
+propose mixup, a simple learning principle to alleviate these issues. In
+essence, mixup trains a neural network on convex combinations of pairs of
+examples and their labels. By doing so, mixup regularizes the neural network to
+favor simple linear behavior in-between training examples. Our experiments on
+the ImageNet-2012, CIFAR-10, CIFAR-100, Google commands and UCI datasets show
+that mixup improves the generalization of state-of-the-art neural network
+architectures. We also find that mixup reduces the memorization of corrupt
+labels, increases the robustness to adversarial examples, and stabilizes the
+training of generative adversarial networks.
+",Computer Science; Statistics
+"Equality of the usual definitions of Brakke flow   In 1978 Brakke introduced the mean curvature flow in the setting of geometric
+measure theory. There exist multiple variants of the original definition. Here
+we prove that most of them are indeed equal. One central point is to correct
+the proof of Brakke's §3.5, where he develops an estimate for the evolution
+of the measure of time-dependent test functions.
+",Mathematics
+"Dynamic Base Station Repositioning to Improve Spectral Efficiency of Drone Small Cells   With recent advancements in drone technology, researchers are now considering
+the possibility of deploying small cells served by base stations mounted on
+flying drones. A major advantage of such drone small cells is that the
+operators can quickly provide cellular services in areas of urgent demand
+without having to pre-install any infrastructure. Since the base station is
+attached to the drone, technically it is feasible for the base station to
+dynamic reposition itself in response to the changing locations of users for
+reducing the communication distance, decreasing the probability of signal
+blocking, and ultimately increasing the spectral efficiency. In this paper, we
+first propose distributed algorithms for autonomous control of drone movements,
+and then model and analyse the spectral efficiency performance of a drone small
+cell to shed new light on the fundamental benefits of dynamic repositioning. We
+show that, with dynamic repositioning, the spectral efficiency of drone small
+cells can be increased by nearly 100\% for realistic drone speed, height, and
+user traffic model and without incurring any major increase in drone energy
+consumption.
+",Computer Science
+"An Unsupervised Homogenization Pipeline for Clustering Similar Patients using Electronic Health Record Data   Electronic health records (EHR) contain a large variety of information on the
+clinical history of patients such as vital signs, demographics, diagnostic
+codes and imaging data. The enormous potential for discovery in this rich
+dataset is hampered by its complexity and heterogeneity.
+We present the first study to assess unsupervised homogenization pipelines
+designed for EHR clustering. To identify the optimal pipeline, we tested
+accuracy on simulated data with varying amounts of redundancy, heterogeneity,
+and missingness. We identified two optimal pipelines: 1) Multiple Imputation by
+Chained Equations (MICE) combined with Local Linear Embedding; and 2) MICE,
+Z-scoring, and Deep Autoencoders.
+",Quantitative Biology
+"Deep Neural Network Optimized to Resistive Memory with Nonlinear Current-Voltage Characteristics   Artificial Neural Network computation relies on intensive vector-matrix
+multiplications. Recently, the emerging nonvolatile memory (NVM) crossbar array
+showed a feasibility of implementing such operations with high energy
+efficiency, thus there are many works on efficiently utilizing emerging NVM
+crossbar array as analog vector-matrix multiplier. However, its nonlinear I-V
+characteristics restrain critical design parameters, such as the read voltage
+and weight range, resulting in substantial accuracy loss. In this paper,
+instead of optimizing hardware parameters to a given neural network, we propose
+a methodology of reconstructing a neural network itself optimized to resistive
+memory crossbar arrays. To verify the validity of the proposed method, we
+simulated various neural network with MNIST and CIFAR-10 dataset using two
+different specific Resistive Random Access Memory (RRAM) model. Simulation
+results show that our proposed neural network produces significantly higher
+inference accuracies than conventional neural network when the synapse devices
+have nonlinear I-V characteristics.
+",Computer Science
+"Rate-Distortion Region of a Gray-Wyner Model with Side Information   In this work, we establish a full single-letter characterization of the
+rate-distortion region of an instance of the Gray-Wyner model with side
+information at the decoders. Specifically, in this model an encoder observes a
+pair of memoryless, arbitrarily correlated, sources $(S^n_1,S^n_2)$ and
+communicates with two receivers over an error-free rate-limited link of
+capacity $R_0$, as well as error-free rate-limited individual links of
+capacities $R_1$ to the first receiver and $R_2$ to the second receiver. Both
+receivers reproduce the source component $S^n_2$ losslessly; and Receiver $1$
+also reproduces the source component $S^n_1$ lossily, to within some prescribed
+fidelity level $D_1$. Also, Receiver $1$ and Receiver $2$ are equipped
+respectively with memoryless side information sequences $Y^n_1$ and $Y^n_2$.
+Important in this setup, the side information sequences are arbitrarily
+correlated among them, and with the source pair $(S^n_1,S^n_2)$; and are not
+assumed to exhibit any particular ordering. Furthermore, by specializing the
+main result to two Heegard-Berger models with successive refinement and
+scalable coding, we shed light on the roles of the common and private
+descriptions that the encoder should produce and what they should carry
+optimally. We develop intuitions by analyzing the developed single-letter
+optimal rate-distortion regions of these models, and discuss some insightful
+binary examples.
+",Computer Science; Mathematics
+"Fourier-based numerical approximation of the Weertman equation for moving dislocations   This work discusses the numerical approximation of a nonlinear
+reaction-advection-diffusion equation, which is a dimensionless form of the
+Weertman equation. This equation models steadily-moving dislocations in
+materials science. It reduces to the celebrated Peierls-Nabarro equation when
+its advection term is set to zero. The approach rests on considering a
+time-dependent formulation, which admits the equation under study as its
+long-time limit. Introducing a Preconditioned Collocation Scheme based on
+Fourier transforms, the iterative numerical method presented solves the
+time-dependent problem, delivering at convergence the desired numerical
+solution to the Weertman equation. Although it rests on an explicit
+time-evolution scheme, the method allows for large time steps, and captures the
+solution in a robust manner. Numerical results illustrate the efficiency of the
+approach for several types of nonlinearities.
+",Physics
+"Design Decisions for Weave: A Real-Time Web-based Collaborative Visualization Framework   There are many web-based visualization systems available to date, each having
+its strengths and limitations. The goals these systems set out to accomplish
+influence design decisions and determine how reusable and scalable they are.
+Weave is a new web-based visualization platform with the broad goal of enabling
+visualization of any available data by anyone for any purpose. Our open source
+framework supports highly interactive linked visualizations for users of
+varying skill levels. What sets Weave apart from other systems is its
+consideration for real-time remote collaboration with session history. We
+provide a detailed account of the various framework designs we considered with
+comparisons to existing state-of-the-art systems.
+",Computer Science
+"Suzaku Analysis of the Supernova Remnant G306.3-0.9 and the Gamma-ray View of Its Neighborhood   We present an investigation of the supernova remnant (SNR) G306.3$-$0.9 using
+archival multi-wavelength data. The Suzaku spectra are well described by
+two-component thermal plasma models: The soft component is in ionization
+equilibrium and has a temperature $\sim$0.59 keV, while the hard component has
+temperature $\sim$3.2 keV and ionization time-scale $\sim$$2.6\times10^{10}$
+cm$^{-3}$ s. We clearly detected Fe K-shell line at energy of $\sim$6.5 keV
+from this remnant. The overabundances of Si, S, Ar, Ca, and Fe confirm that the
+X-ray emission has an ejecta origin. The centroid energy of the Fe-K line
+supports that G306.3$-$0.9 is a remnant of a Type Ia supernova (SN) rather than
+a core-collapse SN. The GeV gamma-ray emission from G306.3$-$0.9 and its
+surrounding were analyzed using about 6 years of Fermi data. We report about
+the non-detection of G306.3$-$0.9 and the detection of a new extended gamma-ray
+source in the south-west of G306.3$-$0.9 with a significance of
+$\sim$13$\sigma$. We discuss several scenarios for these results with the help
+of data from other wavebands to understand the SNR and its neighborhood.
+",Physics
+"Japanese Sentiment Classification using a Tree-Structured Long Short-Term Memory with Attention   Previous approaches to training syntax-based sentiment classification models
+required phrase-level annotated corpora, which are not readily available in
+many languages other than English. Thus, we propose the use of tree-structured
+Long Short-Term Memory with an attention mechanism that pays attention to each
+subtree of the parse tree. Experimental results indicate that our model
+achieves the state-of-the-art performance in a Japanese sentiment
+classification task.
+",Computer Science
+"Covariances, Robustness, and Variational Bayes   Mean-field Variational Bayes (MFVB) is an approximate Bayesian posterior
+inference technique that is increasingly popular due to its fast runtimes on
+large-scale datasets. However, even when MFVB provides accurate posterior means
+for certain parameters, it often mis-estimates variances and covariances.
+Furthermore, prior robustness measures have remained undeveloped for MFVB. By
+deriving a simple formula for the effect of infinitesimal model perturbations
+on MFVB posterior means, we provide both improved covariance estimates and
+local robustness measures for MFVB, thus greatly expanding the practical
+usefulness of MFVB posterior approximations. The estimates for MFVB posterior
+covariances rely on a result from the classical Bayesian robustness literature
+relating derivatives of posterior expectations to posterior covariances and
+include the Laplace approximation as a special case. Our key condition is that
+the MFVB approximation provides good estimates of a select subset of posterior
+means---an assumption that has been shown to hold in many practical settings.
+In our experiments, we demonstrate that our methods are simple, general, and
+fast, providing accurate posterior uncertainty estimates and robustness
+measures with runtimes that can be an order of magnitude faster than MCMC.
+",Statistics
+"Are multi-factor Gaussian term structure models still useful? An empirical analysis on Italian BTPs   In this paper, we empirically study models for pricing Italian sovereign
+bonds under a reduced form framework, by assuming different dynamics for the
+short-rate process. We analyze classical Cox-Ingersoll-Ross and Vasicek
+multi-factor models, with a focus on optimization algorithms applied in the
+calibration exercise. The Kalman filter algorithm together with a maximum
+likelihood estimation method are considered to fit the Italian term-structure
+over a 12-year horizon, including the global financial crisis and the euro area
+sovereign debt crisis. Analytic formulas for the gradient vector and the
+Hessian matrix of the likelihood function are provided.
+",Quantitative Finance
+"Probing valley filtering effect by Andreev reflection in zigzag graphene nanoribbon   Ballistic point contact (BPC) with zigzag edges in graphene is a main
+candidate of a valley filter, in which the polarization of the valley degree of
+freedom can be selected by using a local gate voltage. Here, we propose to
+detect the valley filtering effect by Andreev reflection. Because electrons in
+the lowest conduction band and the highest valence band of the BPC possess
+opposite chirality, the inter-band Andreev reflection is strongly suppressed,
+after multiple scattering and interference. We draw this conclusion by both the
+scattering matrix analysis and the numerical simulation. The Andreev reflection
+as a function of the incident energy of electrons and the local gate voltage at
+the BPC is obtained, by which the parameter region for a perfect valley filter
+and the direction of valley polarization can be determined. The Andreev
+reflection exhibits an oscillatory decay with the length of the BPC, indicating
+a negative correlation to valley polarization.
+",Physics
+"Generalized Approximate Message-Passing Decoder for Universal Sparse Superposition Codes   Sparse superposition (SS) codes were originally proposed as a
+capacity-achieving communication scheme over the additive white Gaussian noise
+channel (AWGNC) [1]. Very recently, it was discovered that these codes are
+universal, in the sense that they achieve capacity over any memoryless channel
+under generalized approximate message-passing (GAMP) decoding [2], although
+this decoder has never been stated for SS codes. In this contribution we
+introduce the GAMP decoder for SS codes, we confirm empirically the
+universality of this communication scheme through its study on various channels
+and we provide the main analysis tools: state evolution and potential. We also
+compare the performance of GAMP with the Bayes-optimal MMSE decoder. We
+empirically illustrate that despite the presence of a phase transition
+preventing GAMP to reach the optimal performance, spatial coupling allows to
+boost the performance that eventually tends to capacity in a proper limit. We
+also prove that, in contrast with the AWGNC case, SS codes for binary input
+channels have a vanishing error floor in the limit of large codewords.
+Moreover, the performance of Hadamard-based encoders is assessed for practical
+implementations.
+",Computer Science; Mathematics
+"LAAIR: A Layered Architecture for Autonomous Interactive Robots   When developing general purpose robots, the overarching software architecture
+can greatly affect the ease of accomplishing various tasks. Initial efforts to
+create unified robot systems in the 1990s led to hybrid architectures,
+emphasizing a hierarchy in which deliberative plans direct the use of reactive
+skills. However, since that time there has been significant progress in the
+low-level skills available to robots, including manipulation and perception,
+making it newly feasible to accomplish many more tasks in real-world domains.
+There is thus renewed optimism that robots will be able to perform a wide array
+of tasks while maintaining responsiveness to human operators. However, the top
+layer in traditional hybrid architectures, designed to achieve long-term goals,
+can make it difficult to react quickly to human interactions during goal-driven
+execution. To mitigate this difficulty, we propose a novel architecture that
+supports such transitions by adding a top-level reactive module which has
+flexible access to both reactive skills and a deliberative control module. To
+validate this architecture, we present a case study of its application on a
+domestic service robot platform.
+",Computer Science
+"3D Human Pose Estimation in RGBD Images for Robotic Task Learning   We propose an approach to estimate 3D human pose in real world units from a
+single RGBD image and show that it exceeds performance of monocular 3D pose
+estimation approaches from color as well as pose estimation exclusively from
+depth. Our approach builds on robust human keypoint detectors for color images
+and incorporates depth for lifting into 3D. We combine the system with our
+learning from demonstration framework to instruct a service robot without the
+need of markers. Experiments in real world settings demonstrate that our
+approach enables a PR2 robot to imitate manipulation actions observed from a
+human teacher.
+",Computer Science
+"Simultaneous non-vanishing for Dirichlet L-functions   We extend the work of Fouvry, Kowalski and Michel on correlation between
+Hecke eigenvalues of modular forms and algebraic trace functions in order to
+establish an asymptotic formula for a generalized cubic moment of modular
+L-functions at the central point s = 1/2 and for prime moduli q. As an
+application, we exploit our recent result on the mollification of the fourth
+moment of Dirichlet L-functions to derive that for any pair
+$(\omega_1,\omega_2)$ of multiplicative characters modulo q, there is a
+positive proportion of $\chi$ (mod q) such that $L(\chi, 1/2 ), L(\chi\omega_1,
+1/2 )$ and $L(\chi\omega_2, 1/2)$ are simultaneously not too small.
+",Mathematics
+"Wehrl Entropy Based Quantification of Nonclassicality for Single Mode Quantum Optical States   Nonclassical states of a quantized light are described in terms of
+Glauber-Sudarshan P distribution which is not a genuine classical probability
+distribution. Despite several attempts, defining a uniform measure of
+nonclassicality (NC) for the single mode quantum states of light is yet an open
+task. In our previous work [Phys. Rev. A 95, 012330 (2017)] we have shown that
+the existing well-known measures fail to quantify the NC of single mode states
+that are generated under multiple NC-inducing operations. Recently, Ivan et.
+al. [Quantum. Inf. Process. 11, 853 (2012)] have defined a measure of
+non-Gaussian character of quantum optical states in terms of Wehrl entropy.
+Here, we adopt this concept in the context of single mode NC. In this paper, we
+propose a new quantification of NC for the single mode quantum states of light
+as the difference between the total Wehrl entropy of the state and the maximum
+Wehrl entropy arising due to its classical characteristics. This we achieve by
+subtracting from its Wehrl entropy, the maximum Wehrl entropy attainable by any
+classical state that has same randomness as measured in terms of von-Neumann
+entropy. We obtain analytic expressions of NC for most of the states, in
+particular, all pure states and Gaussian mixed states. However, the evaluation
+of NC for the non-Gaussian mixed states is subject to extensive numerical
+computation that lies beyond the scope of the current work. We show that, along
+with the states generated under single NC-inducing operations, also for the
+broader class of states that are generated under multiple NC-inducing
+operations, our quantification enumerates the NC consistently.
+",Computer Science; Physics
+"Attention-based Natural Language Person Retrieval   Following the recent progress in image classification and captioning using
+deep learning, we develop a novel natural language person retrieval system
+based on an attention mechanism. More specifically, given the description of a
+person, the goal is to localize the person in an image. To this end, we first
+construct a benchmark dataset for natural language person retrieval. To do so,
+we generate bounding boxes for persons in a public image dataset from the
+segmentation masks, which are then annotated with descriptions and attributes
+using the Amazon Mechanical Turk. We then adopt a region proposal network in
+Faster R-CNN as a candidate region generator. The cropped images based on the
+region proposals as well as the whole images with attention weights are fed
+into Convolutional Neural Networks for visual feature extraction, while the
+natural language expression and attributes are input to Bidirectional Long
+Short- Term Memory (BLSTM) models for text feature extraction. The visual and
+text features are integrated to score region proposals, and the one with the
+highest score is retrieved as the output of our system. The experimental
+results show significant improvement over the state-of-the-art method for
+generic object retrieval and this line of research promises to benefit search
+in surveillance video footage.
+",Computer Science
+"Large Scale Automated Forecasting for Monitoring Network Safety and Security   Real time large scale streaming data pose major challenges to forecasting, in
+particular defying the presence of human experts to perform the corresponding
+analysis. We present here a class of models and methods used to develop an
+automated, scalable and versatile system for large scale forecasting oriented
+towards safety and security monitoring. Our system provides short and long term
+forecasts and uses them to detect safety and security issues in relation with
+multiple internet connected devices well in advance they might take place.
+",Statistics
+"Contextual Regression: An Accurate and Conveniently Interpretable Nonlinear Model for Mining Discovery from Scientific Data   Machine learning algorithms such as linear regression, SVM and neural network
+have played an increasingly important role in the process of scientific
+discovery. However, none of them is both interpretable and accurate on
+nonlinear datasets. Here we present contextual regression, a method that joins
+these two desirable properties together using a hybrid architecture of neural
+network embedding and dot product layer. We demonstrate its high prediction
+accuracy and sensitivity through the task of predictive feature selection on a
+simulated dataset and the application of predicting open chromatin sites in the
+human genome. On the simulated data, our method achieved high fidelity recovery
+of feature contributions under random noise levels up to 200%. On the open
+chromatin dataset, the application of our method not only outperformed the
+state of the art method in terms of accuracy, but also unveiled two previously
+unfound open chromatin related histone marks. Our method can fill the blank of
+accurate and interpretable nonlinear modeling in scientific data mining tasks.
+",Computer Science; Statistics
+"Multi-time correlators in continuous measurement of qubit observables   We consider multi-time correlators for output signals from linear detectors,
+continuously measuring several qubit observables at the same time. Using the
+quantum Bayesian formalism, we show that for unital (symmetric) evolution in
+the absence of phase backaction, an $N$-time correlator can be expressed as a
+product of two-time correlators when $N$ is even. For odd $N$, there is a
+similar factorization, which also includes a single-time average. Theoretical
+predictions agree well with experimental results for two detectors, which
+simultaneously measure non-commuting qubit observables.
+",Physics
+"Parallelism, Concurrency and Distribution in Constraint Handling Rules: A Survey   Constraint Handling Rules is an effective concurrent declarative programming
+language and a versatile computational logic formalism. CHR programs consist of
+guarded reactive rules that transform multisets of constraints. One of the main
+features of CHR is its inherent concurrency. Intuitively, rules can be applied
+to parts of a multiset in parallel. In this comprehensive survey, we give an
+overview of concurrent and parallel as well as distributed CHR semantics,
+standard and more exotic, that have been proposed over the years at various
+levels of refinement. These semantics range from the abstract to the concrete.
+They are related by formal soundness results. Their correctness is established
+as correspondence between parallel and sequential computations. We present
+common concise sample CHR programs that have been widely used in experiments
+and benchmarks. We review parallel CHR implementations in software and
+hardware. The experimental results obtained show a consistent parallel speedup.
+Most implementations are available online. The CHR formalism can also be used
+to implement and reason with models for concurrency. To this end, the Software
+Transaction Model, the Actor Model, Colored Petri Nets and the Join-Calculus
+have been faithfully encoded in CHR. Under consideration in Theory and Practice
+of Logic Programming (TPLP).
+",Computer Science
+"Robustness against the channel effect in pathological voice detection   Many people are suffering from voice disorders, which can adversely affect
+the quality of their lives. In response, some researchers have proposed
+algorithms for automatic assessment of these disorders, based on voice signals.
+However, these signals can be sensitive to the recording devices. Indeed, the
+channel effect is a pervasive problem in machine learning for healthcare. In
+this study, we propose a detection system for pathological voice, which is
+robust against the channel effect. This system is based on a bidirectional LSTM
+network. To increase the performance robustness against channel mismatch, we
+integrate domain adversarial training (DAT) to eliminate the differences
+between the devices. When we train on data recorded on a high-quality
+microphone and evaluate on smartphone data without labels, our robust detection
+system increases the PR-AUC from 0.8448 to 0.9455 (and 0.9522 with target
+sample labels). To the best of our knowledge, this is the first study applying
+unsupervised domain adaptation to pathological voice detection. Notably, our
+system does not need target device sample labels, which allows for
+generalization to many new devices.
+",Computer Science
+"An Effective Framework for Constructing Exponent Lattice Basis of Nonzero Algebraic Numbers   Computing a basis for the exponent lattice of algebraic numbers is a basic
+problem in the field of computational number theory with applications to many
+other areas. The main cost of a well-known algorithm
+\cite{ge1993algorithms,kauers2005algorithms} solving the problem is on
+computing the primitive element of the extended field generated by the given
+algebraic numbers. When the extended field is of large degree, the problem
+seems intractable by the tool implementing the algorithm. In this paper, a
+special kind of exponent lattice basis is introduced. An important feature of
+the basis is that it can be inductively constructed, which allows us to deal
+with the given algebraic numbers one by one when computing the basis. Based on
+this, an effective framework for constructing exponent lattice basis is
+proposed. Through computing a so-called pre-basis first and then solving some
+linear Diophantine equations, the basis can be efficiently constructed. A new
+certificate for multiplicative independence and some techniques for decreasing
+degrees of algebraic numbers are provided to speed up the computation. The new
+algorithm has been implemented with Mathematica and its effectiveness is
+verified by testing various examples. Moreover, the algorithm is applied to
+program verification for finding invariants of linear loops.
+",Computer Science
+"Competing evolutionary paths in growing populations with applications to multidrug resistance   Investigating the emergence of a particular cell type is a recurring theme in
+models of growing cellular populations. The evolution of resistance to therapy
+is a classic example. Common questions are: when does the cell type first
+occur, and via which sequence of steps is it most likely to emerge? For growing
+populations, these questions can be formulated in a general framework of
+branching processes spreading through a graph from a root to a target vertex.
+Cells have a particular fitness value on each vertex and can transition along
+edges at specific rates. Vertices represents cell states, say \mic{genotypes
+}or physical locations, while possible transitions are acquiring a mutation or
+cell migration. We focus on the setting where cells at the root vertex have the
+highest fitness and transition rates are small. Simple formulas are derived for
+the time to reach the target vertex and for the probability that it is reached
+along a given path in the graph. We demonstrate our results on \mic{several
+scenarios relevant to the emergence of drug resistance}, including: the
+orderings of resistance-conferring mutations in bacteria and the impact of
+imperfect drug penetration in cancer.
+",Quantitative Biology
+"Transient flows in active porous media   Stimuli-responsive materials that modify their shape in response to changes
+in environmental conditions -- such as solute concentration, temperature, pH,
+and stress -- are widespread in nature and technology. Applications include
+micro- and nanoporous materials used in filtration and flow control. The
+physiochemical mechanisms that induce internal volume modifications have been
+widely studies. The coupling between induced volume changes and solute
+transport through porous materials, however, is not well understood. Here, we
+consider advective and diffusive transport through a small channel linking two
+large reservoirs. A section of stimulus-responsive material regulates the
+channel permeability, which is a function of the local solute concentration. We
+derive an exact solution to the coupled transport problem and demonstrate the
+existence of a flow regime in which the steady state is reached via a damped
+oscillation around the equilibrium concentration value. Finally, the
+feasibility of an experimental observation of the phenomena is discussed.
+Please note that this version of the paper has not been formally peer reviewed,
+revised or accepted by a journal.
+",Physics
+"An information model for modular robots: the Hardware Robot Information Model (HRIM)   Today's landscape of robotics is dominated by vertical integration where
+single vendors develop the final product leading to slow progress, expensive
+products and customer lock-in. Opposite to this, an horizontal integration
+would result in a rapid development of cost-effective mass-market products with
+an additional consumer empowerment. The transition of an industry from vertical
+integration to horizontal integration is typically catalysed by de facto
+industry standards that enable a simplified and seamless integration of
+products. However, in robotics there is currently no leading candidate for a
+global plug-and-play standard.
+This paper tackles the problem of incompatibility between robot components
+that hinder the reconfigurability and flexibility demanded by the robotics
+industry. Particularly, it presents a model to create plug-and-play robot
+hardware components. Rather than iteratively evolving previous ontologies, our
+proposed model answers the needs identified by the industry while facilitating
+interoperability, measurability and comparability of robotics technology. Our
+approach differs significantly with the ones presented before as it is
+hardware-oriented and establishes a clear set of actions towards the
+integration of this model in real environments and with real manufacturers.
+",Computer Science
+"Detecting Adversarial Samples Using Density Ratio Estimates   Machine learning models, especially based on deep architectures are used in
+everyday applications ranging from self driving cars to medical diagnostics. It
+has been shown that such models are dangerously susceptible to adversarial
+samples, indistinguishable from real samples to human eye, adversarial samples
+lead to incorrect classifications with high confidence. Impact of adversarial
+samples is far-reaching and their efficient detection remains an open problem.
+We propose to use direct density ratio estimation as an efficient model
+agnostic measure to detect adversarial samples. Our proposed method works
+equally well with single and multi-channel samples, and with different
+adversarial sample generation methods. We also propose a method to use density
+ratio estimates for generating adversarial samples with an added constraint of
+preserving density ratio.
+",Computer Science; Statistics
+"The Query Complexity of Cake Cutting   We study the query complexity of cake cutting and give lower and upper bounds
+for computing approximately envy-free, perfect, and equitable allocations with
+the minimum number of cuts. The lower bounds are tight for computing connected
+envy-free allocations among n=3 players and for computing perfect and equitable
+allocations with minimum number of cuts between n=2 players.
+We also formalize moving knife procedures and show that a large subclass of
+this family, which captures all the known moving knife procedures, can be
+simulated efficiently with arbitrarily small error in the Robertson-Webb query
+model.
+",Computer Science
+"Stacked Convolutional and Recurrent Neural Networks for Music Emotion Recognition   This paper studies the emotion recognition from musical tracks in the
+2-dimensional valence-arousal (V-A) emotional space. We propose a method based
+on convolutional (CNN) and recurrent neural networks (RNN), having
+significantly fewer parameters compared with the state-of-the-art method for
+the same task. We utilize one CNN layer followed by two branches of RNNs
+trained separately for arousal and valence. The method was evaluated using the
+'MediaEval2015 emotion in music' dataset. We achieved an RMSE of 0.202 for
+arousal and 0.268 for valence, which is the best result reported on this
+dataset.
+",Computer Science
+"Timed Automata with Polynomial Delay and their Expressiveness   We consider previous models of Timed, Probabilistic and Stochastic Timed
+Automata, we introduce our model of Timed Automata with Polynomial Delay and we
+characterize the expressiveness of these models relative to each other.
+",Computer Science
+"Superconducting properties of Cu intercalated Bi$_2$Se$_3$ studied by Muon Spin Spectroscopy   We present muon spin rotation measurements on superconducting Cu intercalated
+Bi$_2$Se$_3$, which was suggested as a realization of a topological
+superconductor. We observe a clear evidence of the superconducting transition
+below 4 K, where the width of magnetic field distribution increases as the
+temperature is decreased. The measured broadening at mK temperatures suggests a
+large London penetration depth in the $ab$ plane ($\lambda_{\mathrm{eff}}\sim
+1.6$ $\mathrm{\mu}$m). We show that the temperature dependence of this
+broadening follows the BCS prediction, but could be consistent with several gap
+symmetries.
+",Physics
+"Time-domain THz spectroscopy reveals coupled protein-hydration dielectric response in solutions of native and fibrils of human lyso-zyme   Here we reveal details of the interaction between human lysozyme proteins,
+both native and fibrils, and their water environment by intense terahertz time
+domain spectroscopy. With the aid of a rigorous dielectric model, we determine
+the amplitude and phase of the oscillating dipole induced by the THz field in
+the volume containing the protein and its hydration water. At low
+concentrations, the amplitude of this induced dipolar response decreases with
+increasing concentration. Beyond a certain threshold, marking the onset of the
+interactions between the extended hydration shells, the amplitude remains fixed
+but the phase of the induced dipolar response, which is initially in phase with
+the applied THz field, begins to change. The changes observed in the THz
+response reveal protein-protein interactions me-diated by extended hydration
+layers, which may control fibril formation and may have an important role in
+chemical recognition phenomena.
+",Physics
+"Inversion of Qubit Energy Levels in Qubit-Oscillator Circuits in the Deep-Strong-Coupling Regime   We report on experimentally measured light shifts of superconducting flux
+qubits deep-strongly coupled to LC oscillators, where the coupling constants
+are comparable to the qubit and oscillator resonance frequencies. By using
+two-tone spectroscopy, the energies of the six lowest levels of each circuit
+are determined. We find huge Lamb shifts that exceed 90% of the bare qubit
+frequencies and inversions of the qubits' ground and excited states when there
+are a finite number of photons in the oscillator. Our experimental results
+agree with theoretical predictions based on the quantum Rabi model.
+",Physics
+"Deep Multiple Instance Feature Learning via Variational Autoencoder   We describe a novel weakly supervised deep learning framework that combines
+both the discriminative and generative models to learn meaningful
+representation in the multiple instance learning (MIL) setting. MIL is a weakly
+supervised learning problem where labels are associated with groups of
+instances (referred as bags) instead of individual instances. To address the
+essential challenge in MIL problems raised from the uncertainty of positive
+instances label, we use a discriminative model regularized by variational
+autoencoders (VAEs) to maximize the differences between latent representations
+of all instances and negative instances. As a result, the hidden layer of the
+variational autoencoder learns meaningful representation. This representation
+can effectively be used for MIL problems as illustrated by better performance
+on the standard benchmark datasets comparing to the state-of-the-art
+approaches. More importantly, unlike most related studies, the proposed
+framework can be easily scaled to large dataset problems, as illustrated by the
+audio event detection and segmentation task. Visualization also confirms the
+effectiveness of the latent representation in discriminating positive and
+negative classes.
+",Statistics
+"Regularity of envelopes in Kähler classes   We establish the C^{1,1} regularity of quasi-psh envelopes in a Kahler class,
+confirming a conjecture of Berman.
+",Mathematics
+"$S^1$-equivariant Index theorems and Morse inequalities on complex manifolds with boundary   Let $M$ be a complex manifold of dimension $n$ with smooth connected boundary
+$X$. Assume that $\overline M$ admits a holomorphic $S^1$-action preserving the
+boundary $X$ and the $S^1$-action is transversal and CR on $X$. We show that
+the $\overline\partial$-Neumann Laplacian on $M$ is transversally elliptic and
+as a consequence, the $m$-th Fourier component of the $q$-th Dolbeault
+cohomology group $H^q_m(\overline M)$ is finite dimensional, for every
+$m\in\mathbb Z$ and every $q=0,1,\ldots,n$. This enables us to define
+$\sum^{n}_{j=0}(-1)^j{\rm dim\,}H^q_m(\overline M)$ the $m$-th Fourier
+component of the Euler characteristic on $M$ and to study large $m$-behavior of
+$H^q_m(\overline M)$. In this paper, we establish an index formula for
+$\sum^{n}_{j=0}(-1)^j{\rm dim\,}H^q_m(\overline M)$ and Morse inequalities for
+$H^q_m(\overline M)$.
+",Mathematics
+"Internal Model from Observations for Reward Shaping   Reinforcement learning methods require careful design involving a reward
+function to obtain the desired action policy for a given task. In the absence
+of hand-crafted reward functions, prior work on the topic has proposed several
+methods for reward estimation by using expert state trajectories and action
+pairs. However, there are cases where complete or good action information
+cannot be obtained from expert demonstrations. We propose a novel reinforcement
+learning method in which the agent learns an internal model of observation on
+the basis of expert-demonstrated state trajectories to estimate rewards without
+completely learning the dynamics of the external environment from state-action
+pairs. The internal model is obtained in the form of a predictive model for the
+given expert state distribution. During reinforcement learning, the agent
+predicts the reward as a function of the difference between the actual state
+and the state predicted by the internal model. We conducted multiple
+experiments in environments of varying complexity, including the Super Mario
+Bros and Flappy Bird games. We show our method successfully trains good
+policies directly from expert game-play videos.
+",Computer Science; Statistics
+"Characterizations of quasitrivial symmetric nondecreasing associative operations   In this paper we are interested in the class of n-ary operations on an
+arbitrary chain that are quasitrivial, symmetric, nondecreasing, and
+associative. We first provide a description of these operations. We then prove
+that associativity can be replaced with bisymmetry in the definition of this
+class. Finally we investigate the special situation where the chain is finite.
+",Mathematics
+"Multivariate Dependency Measure based on Copula and Gaussian Kernel   We propose a new multivariate dependency measure. It is obtained by
+considering a Gaussian kernel based distance between the copula transform of
+the given d-dimensional distribution and the uniform copula and then
+appropriately normalizing it. The resulting measure is shown to satisfy a
+number of desirable properties. A nonparametric estimate is proposed for this
+dependency measure and its properties (finite sample as well as asymptotic) are
+derived. Some comparative studies of the proposed dependency measure estimate
+with some widely used dependency measure estimates on artificial datasets are
+included. A non-parametric test of independence between two or more random
+variables based on this measure is proposed. A comparison of the proposed test
+with some existing nonparametric multivariate test for independence is
+presented.
+",Mathematics; Statistics
+"The nature of the tensor order in Cd2Re2O7   The pyrochlore metal Cd2Re2O7 has been recently investigated by
+second-harmonic generation (SHG) reflectivity. In this paper, we develop a
+general formalism that allows for the identification of the relevant tensor
+components of the SHG from azimuthal scans. We demonstrate that the secondary
+order parameter identified by SHG at the structural phase transition is the
+x2-y2 component of the axial toroidal quadrupole. This differs from the 3z2-r2
+symmetry of the atomic displacements associated with the I-4m2 crystal
+structure that was previously thought to be its origin. Within the same
+formalism, we suggest that the primary order parameter detected in the SHG
+experiment is the 3z2-r2 component of the magnetic quadrupole. We discuss the
+general mechanism driving the phase transition in our proposed framework, and
+suggest experiments, particularly resonant X-ray scattering ones, that could
+clarify this issue.
+",Physics
+"Efficient and consistent inference of ancestral sequences in an evolutionary model with insertions and deletions under dense taxon sampling   In evolutionary biology, the speciation history of living organisms is
+represented graphically by a phylogeny, that is, a rooted tree whose leaves
+correspond to current species and branchings indicate past speciation events.
+Phylogenies are commonly estimated from molecular sequences, such as DNA
+sequences, collected from the species of interest. At a high level, the idea
+behind this inference is simple: the further apart in the Tree of Life are two
+species, the greater is the number of mutations to have accumulated in their
+genomes since their most recent common ancestor. In order to obtain accurate
+estimates in phylogenetic analyses, it is standard practice to employ
+statistical approaches based on stochastic models of sequence evolution on a
+tree. For tractability, such models necessarily make simplifying assumptions
+about the evolutionary mechanisms involved. In particular, commonly omitted are
+insertions and deletions of nucleotides -- also known as indels.
+Properly accounting for indels in statistical phylogenetic analyses remains a
+major challenge in computational evolutionary biology. Here we consider the
+problem of reconstructing ancestral sequences on a known phylogeny in a model
+of sequence evolution incorporating nucleotide substitutions, insertions and
+deletions, specifically the classical TKF91 process. We focus on the case of
+dense phylogenies of bounded height, which we refer to as the taxon-rich
+setting, where statistical consistency is achievable. We give the first
+polynomial-time ancestral reconstruction algorithm with provable guarantees
+under constant rates of mutation. Our algorithm succeeds when the phylogeny
+satisfies the ""big bang"" condition, a necessary and sufficient condition for
+statistical consistency in this context.
+",Computer Science; Mathematics; Statistics
+"Flow Characteristics and Cores of Complex Network and Multiplex Type Systems   Subject of research is complex networks and network systems. The network
+system is defined as a complex network in which flows are moved. Classification
+of flows in the network is carried out on the basis of ordering and continuity.
+It is shown that complex networks with different types of flows generate
+various network systems. Flow analogues of the basic concepts of the theory of
+complex networks are introduced and the main problems of this theory in terms
+of flow characteristics are formulated. Local and global flow characteristics
+of networks bring closer the theory of complex networks to the systems theory
+and systems analysis. Concept of flow core of network system is introduced and
+defined how it simplifies the process of its investigation. Concepts of kernel
+and flow core of multiplex are determined. Features of operation of multiplex
+type systems are analyzed.
+",Computer Science; Physics
+"Pattern-forming fronts in a Swift-Hohenberg equation with directional quenching - parallel and oblique stripes   We study the effect of domain growth on the orientation of striped phases in
+a Swift-Hohenberg equation. Domain growth is encoded in a step-like parameter
+dependence that allows stripe formation in a half plane, and suppresses
+patterns in the complement, while the boundary of the pattern-forming region is
+propagating with fixed normal velocity. We construct front solutions that leave
+behind stripes in the pattern-forming region that are parallel to or at a small
+oblique angle to the boundary.
+Technically, the construction of stripe formation parallel to the boundary
+relies on ill-posed, infinite-dimensional spatial dynamics. Stripes forming at
+a small oblique angle are constructed using a functional-analytic, perturbative
+approach. Here, the main difficulties are the presence of continuous spectrum
+and the fact that small oblique angles appear as a singular perturbation in a
+traveling-wave problem. We resolve the former difficulty using a farfield-core
+decomposition and Fredholm theory in weighted spaces. The singular perturbation
+problem is resolved using preconditioners and boot-strapping.
+",Physics
+"Generalized Minimum Distance Estimators in Linear Regression with Dependent Errors   This paper discusses minimum distance estimation method in the linear
+regression model with dependent errors which are strongly mixing. The
+regression parameters are estimated through the minimum distance estimation
+method, and asymptotic distributional properties of the estimators are
+discussed. A simulation study compares the performance of the minimum distance
+estimator with other well celebrated estimator. This simulation study shows the
+superiority of the minimum distance estimator over another estimator. KoulMde
+(R package) which was used for the simulation study is available online. See
+section 4 for the detail.
+",Mathematics; Statistics
+"Live Service Migration in Mobile Edge Clouds   Mobile edge clouds (MECs) bring the benefits of the cloud closer to the user,
+by installing small cloud infrastructures at the network edge. This enables a
+new breed of real-time applications, such as instantaneous object recognition
+and safety assistance in intelligent transportation systems, that require very
+low latency. One key issue that comes with proximity is how to ensure that
+users always receive good performance as they move across different locations.
+Migrating services between MECs is seen as the means to achieve this. This
+article presents a layered framework for migrating active service applications
+that are encapsulated either in virtual machines (VMs) or containers. This
+layering approach allows a substantial reduction in service downtime. The
+framework is easy to implement using readily available technologies, and one of
+its key advantages is that it supports containers, which is a promising
+emerging technology that offers tangible benefits over VMs. The migration
+performance of various real applications is evaluated by experiments under the
+presented framework. Insights drawn from the experimentation results are
+discussed.
+",Computer Science
+"Induced density correlations in a sonic black hole condensate   Analog black/white hole pairs, consisting of a region of supersonic flow,
+have been achieved in a recent experiment by J. Steinhauer using an elongated
+Bose-Einstein condensate. A growing standing density wave, and a checkerboard
+feature in the density-density correlation function, were observed in the
+supersonic region. We model the density-density correlation function, taking
+into account both quantum fluctuations and the shot-to-shot variation of atom
+number normally present in ultracold-atom experiments. We find that quantum
+fluctuations alone produce some, but not all, of the features of the
+correlation function, whereas atom-number fluctuation alone can produce all the
+observed features, and agreement is best when both are included. In both cases,
+the density-density correlation is not intrinsic to the fluctuations, but
+rather is induced by modulation of the standing wave caused by the
+fluctuations.
+",Physics
+"Genus growth in $\mathbb{Z}_p$-towers of function fields   Let $K$ be a function field over a finite field $k$ of characteristic $p$ and
+let $K_{\infty}/K$ be a geometric extension with Galois group $\mathbb{Z}_p$.
+Let $K_n$ be the corresponding subextension with Galois group
+$\mathbb{Z}/p^n\mathbb{Z}$ and genus $g_n$. In this paper, we give a simple
+explicit formula $g_n$ in terms of an explicit Witt vector construction of the
+$\mathbb{Z}_p$-tower. This formula leads to a tight lower bound on $g_n$ which
+is quadratic in $p^n$. Furthermore, we determine all $\mathbb{Z}_p$-towers for
+which the genus sequence is stable, in the sense that there are $a,b,c \in
+\mathbb{Q}$ such that $g_n=a p^{2n}+b p^n +c$ for $n$ large enough. Such genus
+stable towers are expected to have strong stable arithmetic properties for
+their zeta functions. A key technical contribution of this work is a new
+simplified formula for the Schmid-Witt symbol coming from local class field
+theory.
+",Mathematics
+"Topological Phases emerging from Spin-Orbital Physics   We study the evolution of spin-orbital correlations in an inhomogeneous
+quantum system with an impurity replacing a doublon by a holon orbital degree
+of freedom. Spin-orbital entanglement is large when spin correlations are
+antiferromagnetic, while for a ferromagnetic host we obtain a pure orbital
+description. In this regime the orbital model can be mapped on spinless
+fermions and we uncover topological phases with zero energy modes at the edge
+or at the domain between magnetically inequivalent regions.
+",Physics
+"Accurate and Diverse Sampling of Sequences based on a ""Best of Many"" Sample Objective   For autonomous agents to successfully operate in the real world, anticipation
+of future events and states of their environment is a key competence. This
+problem has been formalized as a sequence extrapolation problem, where a number
+of observations are used to predict the sequence into the future. Real-world
+scenarios demand a model of uncertainty of such predictions, as predictions
+become increasingly uncertain -- in particular on long time horizons. While
+impressive results have been shown on point estimates, scenarios that induce
+multi-modal distributions over future sequences remain challenging. Our work
+addresses these challenges in a Gaussian Latent Variable model for sequence
+prediction. Our core contribution is a ""Best of Many"" sample objective that
+leads to more accurate and more diverse predictions that better capture the
+true variations in real-world sequence data. Beyond our analysis of improved
+model fit, our models also empirically outperform prior work on three diverse
+tasks ranging from traffic scenes to weather data.
+",Statistics
+"Exploring RNN-Transducer for Chinese Speech Recognition   End-to-end approaches have drawn much attention recently for significantly
+simplifying the construction of an automatic speech recognition (ASR) system.
+RNN transducer (RNN-T) is one of the popular end-to-end methods. Previous
+studies have shown that RNN-T is difficult to train and a very complex training
+process is needed for a reasonable performance. In this paper, we explore RNN-T
+for a Chinese large vocabulary continuous speech recognition (LVCSR) task and
+aim to simplify the training process while maintaining performance. First, a
+new strategy of learning rate decay is proposed to accelerate the model
+convergence. Second, we find that adding convolutional layers at the beginning
+of the network and using ordered data can discard the pre-training process of
+the encoder without loss of performance. Besides, we design experiments to find
+a balance among the usage of GPU memory, training circle and model performance.
+Finally, we achieve 16.9% character error rate (CER) on our test set which is
+2% absolute improvement from a strong BLSTM CE system with language model
+trained on the same text corpus.
+",Computer Science
+"A Debt-Aware Learning Approach for Resource Adaptations in Cloud Elasticity Management   Elasticity is a cloud property that enables applications and its execution
+systems to dynamically acquire and release shared computational resources on
+demand. Moreover, it unfolds the advantage of economies of scale in the cloud
+through a drop in the average costs of these shared resources. However, it is
+still an open challenge to achieve a perfect match between resource demand and
+provision in autonomous elasticity management. Resource adaptation decisions
+essentially involve a trade-off between economics and performance, which
+produces a gap between the ideal and actual resource provisioning. This gap, if
+not properly managed, can negatively impact the aggregate utility of a cloud
+customer in the long run. To address this limitation, we propose a technical
+debt-aware learning approach for autonomous elasticity management based on a
+reinforcement learning of elasticity debts in resource provisioning; the
+adaptation pursues strategic decisions that trades off economics against
+performance. We extend CloudSim and Burlap to evaluate our approach. The
+evaluation shows that a reinforcement learning of technical debts in elasticity
+obtains a higher utility for a cloud customer, while conforming expected levels
+of performance.
+",Computer Science
+"Semi-simplicial spaces   This is an exposition of homotopical results on the geometric realization of
+semi-simplicial spaces. We then use these to derive basic foundational results
+about classifying spaces of topological categories, possibly without units. The
+topics considered include: fibrancy conditions on topological categories; the
+effect on classifying spaces of freely adjoining units; approximate notions of
+units; Quillen's Theorems A and B for non-unital topological categories; the
+effect on classifying spaces of changing the topology on the space of objects;
+the Group-Completion Theorem.
+",Mathematics
+"Constraints, Lazy Constraints, or Propagators in ASP Solving: An Empirical Analysis   Answer Set Programming (ASP) is a well-established declarative paradigm. One
+of the successes of ASP is the availability of efficient systems.
+State-of-the-art systems are based on the ground+solve approach. In some
+applications this approach is infeasible because the grounding of one or few
+constraints is expensive. In this paper, we systematically compare alternative
+strategies to avoid the instantiation of problematic constraints, that are
+based on custom extensions of the solver. Results on real and synthetic
+benchmarks highlight some strengths and weaknesses of the different strategies.
+(Under consideration for acceptance in TPLP, ICLP 2017 Special Issue.)
+",Computer Science
+"A Unified Approach to Nonlinear Transformation Materials   The advances in geometric approaches to optical devices due to transformation
+optics has led to the development of cloaks, concentrators, and other devices.
+It has also been shown that transformation optics can be used to gravitational
+fields from general relativity. However, the technique is currently constrained
+to linear devices, as a consistent approach to nonlinearity (including both the
+case of a nonlinear background medium and a nonlinear transformation) remains
+an open question. Here we show that nonlinearity can be incorporated into
+transformation optics in a consistent way. We use this to illustrate a number
+of novel effects, including cloaking an optical soliton, modeling nonlinear
+solutions to Einstein's field equations, controlling transport in a Debye
+solid, and developing a set of constitutive to relations for relativistic
+cloaks in arbitrary nonlinear backgrounds.
+",Physics
+"Stationary crack propagation in a two-dimensional visco-elastic network model   We investigate crack propagation in a simple two-dimensional visco-elastic
+model and find a scaling regime in the relation between the propagation
+velocity and energy release rate or fracture energy, together with lower and
+upper bounds of the scaling regime. On the basis of our result, the existence
+of the lower and upper bounds is expected to be universal or model-independent:
+the present simple simulation model provides generic insight into the physics
+of crack propagation, and the model will be a first step towards the
+development of a more refined coarse-grained model. Relatively abrupt changes
+of velocity are predicted near the lower and upper bounds for the scaling
+regime and the positions of the bounds could be good markers for the
+development of tough polymers, for which we provide simple views that could be
+useful as guiding principles for toughening polymer-based materials.
+",Physics
+"A note on the fundamental group of Kodaira fibrations   The fundamental group $\pi$ of a Kodaira fibration is, by definition, the
+extension of a surface group $\Pi_b$ by another surface group $\Pi_g$, i.e. \[
+1 \rightarrow \Pi_g \rightarrow \pi \rightarrow \Pi_b \rightarrow 1. \]
+Conversely, we can inquire about what conditions need to be satisfied by a
+group of that sort in order to be the fundamental group of a Kodaira fibration.
+In this short note we collect some restriction on the image of the classifying
+map $m \colon \Pi_b \to \Gamma_g$ in terms of the coinvariant homology of
+$\Pi_g$. In particular, we observe that if $\pi$ is the fundamental group of a
+Kodaira fibration with relative irregularity $g-s$, then $g \leq 1+ 6s$, and we
+show that this effectively constrains the possible choices for $\pi$, namely
+that there are group extensions as above that fail to satisfy this bound, hence
+cannot be the fundamental group of a Kodaira fibration. In particular this
+provides examples of symplectic $4$--manifolds that fail to admit a Kähler
+structure for reasons that eschew the usual obstructions.
+",Mathematics
+"Photo-Chemically Directed Self-Assembly of Carbon Nanotubes on Surfaces   Transistors incorporating single-wall carbon nanotubes (CNTs) as the channel
+material are used in a variety of electronics applications. However, a
+competitive CNT-based technology requires the precise placement of CNTs at
+predefined locations of a substrate. One promising placement approach is to use
+chemical recognition to bind CNTs from solution at the desired locations on a
+surface. Producing the chemical pattern on the substrate is challenging. Here
+we describe a one-step patterning approach based on a highly photosensitive
+surface monolayer. The monolayer contains chromophopric group as light
+sensitive body with heteroatoms as high quantum yield photolysis center. As
+deposited, the layer will bind CNTs from solution. However, when exposed to
+ultraviolet (UV) light with a low dose (60 mJ/cm2) similar to that used for
+conventional photoresists, the monolayer cleaves and no longer binds CNTs.
+These features allow standard, wafer-scale UV lithography processes to be used
+to form a patterned chemical monolayer without the need for complex substrate
+patterning or monolayer stamping.
+",Physics
+"Split-and-augmented Gibbs sampler - Application to large-scale inference problems   This paper derives two new optimization-driven Monte Carlo algorithms
+inspired from variable splitting and data augmentation. In particular, the
+formulation of one of the proposed approaches is closely related to the
+alternating direction method of multipliers (ADMM) main steps. The proposed
+framework enables to derive faster and more efficient sampling schemes than the
+current state-of-the-art methods and can embed the latter. By sampling
+efficiently the parameter to infer as well as the hyperparameters of the
+problem, the generated samples can be used to approximate Bayesian estimators
+of the parameters to infer. Additionally, the proposed approach brings
+confidence intervals at a low cost contrary to optimization methods.
+Simulations on two often-studied signal processing problems illustrate the
+performance of the two proposed samplers. All results are compared to those
+obtained by recent state-of-the-art optimization and MCMC algorithms used to
+solve these problems.
+",Statistics
+"Does a generalized Chaplygin gas correctly describe the cosmological dark sector?   Yes, but only for a parameter value that makes it almost coincide with the
+standard model. We reconsider the cosmological dynamics of a generalized
+Chaplygin gas (gCg) which is split into a cold dark matter (CDM) part and a
+dark energy (DE) component with constant equation of state. This model, which
+implies a specific interaction between CDM and DE, has a $\Lambda$CDM limit and
+provides the basis for studying deviations from the latter. Including matter
+and radiation, we use the (modified) CLASS code \cite{class} to construct the
+CMB and matter power spectra in order to search for a gCg-based concordance
+model that is in agreement with the SNIa data from the JLA sample and with
+recent Planck data. The results reveal that the gCg parameter $\alpha$ is
+restricted to $|\alpha|\lesssim 0.05$, i.e., to values very close to the
+$\Lambda$CDM limit $\alpha =0$. This excludes, in particular, models in which
+DE decays linearly with the Hubble rate.
+",Physics
+"The effects of subdiffusion on the NTA size measurements of extracellular vesicles in biological samples   The interest in the extracellular vesicles (EVs) is rapidly growing as they
+became reliable biomarkers for many diseases. For this reason, fast and
+accurate techniques of EVs size characterization are the matter of utmost
+importance. One increasingly popular technique is the Nanoparticle Tracking
+Analysis (NTA), in which the diameters of EVs are calculated from their
+diffusion constants. The crucial assumption here is that the diffusion in NTA
+follows the Stokes-Einstein relation, i.e. that the Mean Square Displacement
+(MSD) of a particle grows linearly in time (MSD $\propto t$). However, we show
+that NTA violates this assumption in both artificial and biological samples,
+i.e. a large population of particles show a strongly sub-diffusive behaviour
+(MSD $\propto t^\alpha$, $0<\alpha<1$). To support this observation we present
+a range of experimental results for both polystyrene beads and EVs. This is
+also related to another problem: for the same samples there exists a huge
+discrepancy (by the factor of 2-4) between the sizes measured with NTA and with
+the direct imaging methods, such as AFM. This can be remedied by e.g. the
+Finite Track Length Adjustment (FTLA) method in NTA, but its applicability is
+limited in the biological and poly-disperse samples. On the other hand, the
+models of sub-diffusion rarely provide the direct relation between the size of
+a particle and the generalized diffusion constant. However, we solve this last
+problem by introducing the logarithmic model of sub-diffusion, aimed at
+retrieving the size data. In result, we propose a novel protocol of NTA data
+analysis. The accuracy of our method is on par with FTLA for small
+($\simeq$200nm) particles. We apply our method to study the EVs samples and
+corroborate the results with AFM.
+",Physics
+"Empirical regression quantile process with possible application to risk analysis   The processes of the averaged regression quantiles and of their modifications
+provide useful tools in the regression models when the covariates are not fully
+under our control. As an application we mention the probabilistic risk
+assessment in the situation when the return depends on some exogenous
+variables. The processes enable to evaluate the expected $\alpha$-shortfall
+($0\leq\alpha\leq 1$) and other measures of the risk, recently generally
+accepted in the financial literature, but also help to measure the risk in
+environment analysis and elsewhere.
+",Mathematics; Statistics
+"Primordial perturbations from inflation with a hyperbolic field-space   We study primordial perturbations from hyperinflation, proposed recently and
+based on a hyperbolic field-space. In the previous work, it was shown that the
+field-space angular momentum supported by the negative curvature modifies the
+background dynamics and enhances fluctuations of the scalar fields
+qualitatively, assuming that the inflationary background is almost de Sitter.
+In this work, we confirm and extend the analysis based on the standard approach
+of cosmological perturbation in multi-field inflation. At the background level,
+to quantify the deviation from de Sitter, we introduce the slow-varying
+parameters and show that steep potentials, which usually can not drive
+inflation, can drive inflation. At the linear perturbation level, we obtain the
+power spectrum of primordial curvature perturbation and express the spectral
+tilt and running in terms of the slow-varying parameters. We show that
+hyperinflation with power-law type potentials has already been excluded by the
+recent Planck observations, while exponential-type potential with the exponent
+of order unity can be made consistent with observations as far as the power
+spectrum is concerned. We also argue that, in the context of a simple $D$-brane
+inflation, the hyperinflation requires exponentially large hyperbolic extra
+dimensions but that masses of Kaluza-Klein gravitons can be kept relatively
+heavy.
+",Physics
+"Role of Vanadyl Oxygen in Understanding Metallic Behavior of V2O5(001) Nanorods   Vanadium pentoxide (V2O5), the most stable member of vanadium oxide family,
+exhibits interesting semiconductor to metal transition in the temperature range
+of 530-560 K. The metallic behavior originates because of the reduction of V2O5
+through oxygen vacancies. In the present report, V2O5 nanorods in the
+orthorhombic phase with crystal orientation of (001) are grown using vapor
+transport process. Among three nonequivalent oxygen atoms in a VO5 pyramidal
+formula unit in V2O5 structure, the role of terminal vanadyl oxygen (OI) in the
+formation of metallic phase above the transition temperature is established
+from the temperature-dependent Raman spectroscopic studies. The origin of the
+metallic behavior of V2O5 is also understood due to the breakdown of pdpi bond
+between OI and nearest V atom instigated by the formation of vanadyl OI
+vacancy, confirmed from the downward shift of the bottom most split-off
+conduction bands in the material with increasing temperature.
+",Physics
+"Graph Convolution: A High-Order and Adaptive Approach   In this paper, we presented a novel convolutional neural network framework
+for graph modeling, with the introduction of two new modules specially designed
+for graph-structured data: the $k$-th order convolution operator and the
+adaptive filtering module. Importantly, our framework of High-order and
+Adaptive Graph Convolutional Network (HA-GCN) is a general-purposed
+architecture that fits various applications on both node and graph centrics, as
+well as graph generative models. We conducted extensive experiments on
+demonstrating the advantages of our framework. Particularly, our HA-GCN
+outperforms the state-of-the-art models on node classification and molecule
+property prediction tasks. It also generates 32% more real molecules on the
+molecule generation task, both of which will significantly benefit real-world
+applications such as material design and drug screening.
+",Computer Science; Statistics
+"Learning Sparse Representations in Reinforcement Learning with Sparse Coding   A variety of representation learning approaches have been investigated for
+reinforcement learning; much less attention, however, has been given to
+investigating the utility of sparse coding. Outside of reinforcement learning,
+sparse coding representations have been widely used, with non-convex objectives
+that result in discriminative representations. In this work, we develop a
+supervised sparse coding objective for policy evaluation. Despite the
+non-convexity of this objective, we prove that all local minima are global
+minima, making the approach amenable to simple optimization strategies. We
+empirically show that it is key to use a supervised objective, rather than the
+more straightforward unsupervised sparse coding approach. We compare the
+learned representations to a canonical fixed sparse representation, called
+tile-coding, demonstrating that the sparse coding representation outperforms a
+wide variety of tilecoding representations.
+",Computer Science; Statistics
+"Almost euclidean Isoperimetric Inequalities in spaces satisfying local Ricci curvature lower bounds   Motivated by Perelman's Pseudo Locality Theorem for the Ricci flow, we prove
+that if a Riemannian manifold has Ricci curvature bounded below in a metric
+ball which moreover has almost maximal volume, then in a smaller ball (in a
+quantified sense) it holds an almost-euclidean isoperimetric inequality. The
+result is actually established in the more general framework of non-smooth
+spaces satisfying local Ricci curvature lower bounds in a synthetic sense via
+optimal transportation.
+",Mathematics
+"Exponential Sums and Riesz energies   We bound an exponential sum that appears in the study of irregularities of
+distribution (the low-frequency Fourier energy of the sum of several Dirac
+measures) by geometric quantities: a special case is that for all $\left\{ x_1,
+\dots, x_N\right\} \subset \mathbb{T}^2$, $X \geq 1$ and a universal $c>0$ $$
+\sum_{i,j=1}^{N}{ \frac{X^2}{1 + X^4 \|x_i -x_j\|^4}} \lesssim \sum_{k \in
+\mathbb{Z}^2 \atop \|k\| \leq X}{ \left| \sum_{n=1}^{N}{ e^{2 \pi i
+\left\langle k, x_n \right\rangle}}\right|^2} \lesssim \sum_{i,j=1}^{N}{ X^2
+e^{-c X^2\|x_i -x_j\|^2}}.$$ Since this exponential sum is intimately tied to
+rather subtle distribution properties of the points, we obtain nonlocal
+structural statements for near-minimizers of the Riesz-type energy. In the
+regime $X \gtrsim N^{1/2}$ both upper and lower bound match for
+maximally-separated point sets satisfying $\|x_i -x_j\| \gtrsim N^{-1/2}$.
+",Mathematics
+"One dimensionalization in the spin-1 Heisenberg model on the anisotropic triangular lattice   We investigate the effect of dimensional crossover in the ground state of the
+antiferromagnetic spin-$1$ Heisenberg model on the anisotropic triangular
+lattice that interpolates between the regime of weakly coupled Haldane chains
+($J^{\prime}\! \!\ll\!\! J$) and the isotropic triangular lattice
+($J^{\prime}\!\!=\!\!J$). We use the density-matrix renormalization group
+(DMRG) and Schwinger boson theory performed at the Gaussian correction level
+above the saddle-point solution. Our DMRG results show an abrupt transition
+between decoupled spin chains and the spirally ordered regime at
+$(J^{\prime}/J)_c\sim 0.42$, signaled by the sudden closing of the spin gap.
+Coming from the magnetically ordered side, the computation of the spin
+stiffness within Schwinger boson theory predicts the instability of the spiral
+magnetic order toward a magnetically disordered phase with one-dimensional
+features at $(J^{\prime}/J)_c \sim 0.43$. The agreement of these complementary
+methods, along with the strong difference found between the intra- and the
+interchain DMRG short spin-spin correlations; for sufficiently large values of
+the interchain coupling, suggests that the interplay between the quantum
+fluctuations and the dimensional crossover effects gives rise to the
+one-dimensionalization phenomenon in this frustrated spin-$1$ Hamiltonian.
+",Physics
